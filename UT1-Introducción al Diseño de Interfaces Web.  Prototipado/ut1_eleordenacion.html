@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de maquetación web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header, footer {
+      background: #0044cc;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      background: #eee;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    main {
+      display: flex;
+      padding: 1em;
+    }
+    section {
+      flex: 2;
+      margin-right: 1em;
+    }
+    aside {
+      flex: 1;
+      background: #f7f7f7;
+      padding: 1em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mi Sitio Web</h1>
+    <p>Ejemplo de maquetación con elementos de ordenación</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Productos</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Noticias</h2>
+      <p>Este es un párrafo de ejemplo para mostrar contenido.</p>
+      <h3>Lista de temas:</h3>
+      <ul>
+        <li>Diseño web</li>
+        <li>Programación</li>
+        <li>SEO y Marketing</li>
+      </ul>
+
+      <h3>Pasos de un proyecto:</h3>
+      <ol>
+        <li>Planificación</li>
+        <li>Diseño</li>
+        <li>Desarrollo</li>
+        <li>Pruebas</li>
+      </ol>
+
+      <h3>Tabla de horarios:</h3>
+      <table>
+        <tr>
+          <th>Día</th>
+          <th>Horario</th>
+        </tr>
+        <tr>
+          <td>Lunes</td>
+          <td>9:00 - 14:00</td>
+        </tr>
+        <tr>
+          <td>Martes</td>
+          <td>9:00 - 14:00</td>
+        </tr>
+      </table>
+    </section>
+
+    <aside>
+      <h3>Enlaces útiles</h3>
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Foro</a></li>
+        <li><a href="#">Soporte</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2025 Mi Sitio Web - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
